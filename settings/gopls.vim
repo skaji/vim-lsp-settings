@@ -7,6 +7,7 @@ augroup vim_lsp_settings_gopls
       \ 'initialization_options': lsp_settings#get('gopls', 'initialization_options', {
       \     'completeUnimported': v:true,
       \     'matcher': 'fuzzy',
+      \     'gofumpt': v:true,
       \     'ui.inlayhint.hints': {
       \         'assignVariableTypes': v:true,
       \         'compositeLiteralFields': v:true,
